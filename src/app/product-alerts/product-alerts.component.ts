@@ -19,14 +19,4 @@ export class ProductAlertsComponent implements OnInit {
   ngOnInit() {
   }
 
-  isDisplay(price: number): boolean{
-    if (price > 700) {
-      return true;
-    }else{
-      return false;
-    }
-  }
-
-
-
 }
