@@ -8,8 +8,8 @@ import { products } from './../products';
 })
 export class ProductAlertsComponent implements OnInit {
 
-  @Input()
-  alertProducts !: Product;
+  // @Input()
+  // alertProducts !: Product;
 
   constructor() { }
 
